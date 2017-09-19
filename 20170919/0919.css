@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url("reset.css");
+body {
+  padding-bottom: 20px;
+}
+
+.heading {
+  font-size: 0;
+  padding-bottom: 30px;
+  width: 349px;
+  height: 350px;
+  overflow: hidden;
+  background: #ccc url('img/sprite.png') no-repeat -19px 0
+}
+
+.btn-prev,
+.btn-next {
+  position: absolute;
+  top: 350px;
+  padding-top: 17px;
+  overflow: hidden;
+  width: 18px;
+  height: 17px;
+  cursor: pointer;
+  border: 0;
+  background: url('img/sprite.png') no-repeat;
+}
+
+.btn-prev {
+  left: 10px;
+  background-position: 0 0;
+}
+
+.btn-next {
+  left: 33px;
+  background-position: 0 -18px;
+}
