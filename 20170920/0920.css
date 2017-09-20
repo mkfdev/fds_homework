@@ -29,7 +29,7 @@ h1 {
 }
 
 .food-list:hover,
-.food-list:active {
+.food-list:focus {
   height: 240px;
   padding: 8px 0;
   background: yellow;
