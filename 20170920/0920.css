@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import url("./reset.css");
+html {
+  font-size: 10px
+}
+
+.food {
+  margin: 0 auto;
+  width: 260px;
+}
+
+h1 {
+  width: 130px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.food-list {
+  margin-top: 10px;
+  width: 130px;
+  height: 30px;
+  overflow: hidden;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  transition: all 1s;
+  /* transition: height 1s 0s, padding 1s 0s, background 1s 0s; */
+}
+
+.food-list:hover,
+.food-list:active {
+  height: 240px;
+  padding: 8px 0;
+  background: yellow;
+}
+
+.food-list li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.food-list li a {
+  display: block;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #000;
+  line-height: 30px;
+}
+
+.food-list li a:hover {
+  color: #f00;
+}
